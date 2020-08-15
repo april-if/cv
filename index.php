@@ -14,6 +14,9 @@
 		$builder->buildAbout();
 		$builder->buildSkills();
 		$builder->buildServices();
+		$builder->buildPortfolio();
+		$builder->buildContactForm();
+		$builder->buildFooter();
 		?>
 	</body>
 </html>

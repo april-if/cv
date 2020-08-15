@@ -25,6 +25,14 @@ class PartialBuilder
 		'f3cd' => 'Application and interface design',
 	];
 
+	public static $portfolios = [
+		'book.jpeg',
+		'CDback.jpg',
+		'CDbook.jpg',
+		'CDcaver.jpg',
+		'postrAndBook.jpg',
+	];
+
 	public function buildHeader()
 	{
 		include_once "parts/Header.php";
@@ -52,14 +60,17 @@ class PartialBuilder
 
 	public function buildPortfolio()
 	{
+		include_once "parts/Portfolio.php";
 	}
 
 	public function buildContactForm()
 	{
+		include_once "parts/ContactMe.php";
 	}
 
 	public function buildFooter()
 	{
+		include_once "parts/Footer.php";
 	}
 
 }

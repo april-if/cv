@@ -1,4 +1,5 @@
 <section id = "skills">
+	<h3>Skills</h3>
 	<?php foreach (PartialBuilder::$skills as $name => $percentage) { ?>
 		<span class = "skill-name"><?php echo $name ?></span>
 		<span class = "skill-percentage"><?php echo $percentage ?></span>
