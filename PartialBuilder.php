@@ -12,10 +12,10 @@ class PartialBuilder
 	];
 
 	public static $skills = [
-		'after effect' => '90%',
-		'photoshop'    => '80%',
-		'illustrator'  => '80%',
-		'web design'   => '75%',
+		'after effect' => '90',
+		'photoshop'    => '80',
+		'illustrator'  => '80',
+		'web design'   => '75',
 	];
 
 	public static $services = [

@@ -1,7 +1,7 @@
-<header class = "">
+<header id="header">
 	<div class = "head-title">
-		<span class = "main">April</span>
-		<span class = "secondary">Graphic Designer</span>
+		<div class = "main">April</div>
+		<div class = "secondary">Graphic Designer</div>
 	</div>
 	<nav>
 		<?php foreach (PartialBuilder:: $navigation as $navId => $navTitle) {
