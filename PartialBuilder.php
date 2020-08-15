@@ -11,6 +11,20 @@ class PartialBuilder
 		'#contact'   => 'contact',
 	];
 
+	public static $skills = [
+		'after effect' => '90%',
+		'photoshop'    => '80%',
+		'illustrator'  => '80%',
+		'web design'   => '75%',
+	];
+
+	public static $services = [
+		'f001' => 'CD cover design',
+		'f12d' => 'Editing beauty photos',
+		'f0a1' => 'Marketing consulting',
+		'f3cd' => 'Application and interface design',
+	];
+
 	public function buildHeader()
 	{
 		include_once "parts/Header.php";
@@ -23,14 +37,17 @@ class PartialBuilder
 
 	public function buildAbout()
 	{
+		include_once "parts/AboutMe.php";
 	}
 
 	public function buildSkills()
 	{
+		include_once "parts/Skills.php";
 	}
 
 	public function buildServices()
 	{
+		include_once "parts/Services.php";
 	}
 
 	public function buildPortfolio()

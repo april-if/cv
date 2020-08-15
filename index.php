@@ -11,6 +11,9 @@
 		$builder = new PartialBuilder();
 		$builder->buildHeader();
 		$builder->buildBanner();
+		$builder->buildAbout();
+		$builder->buildSkills();
+		$builder->buildServices();
 		?>
 	</body>
 </html>
