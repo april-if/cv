@@ -10,6 +10,7 @@
 		<?php
 		$builder = new PartialBuilder();
 		$builder->buildHeader();
+		$builder->buildBanner();
 		?>
 	</body>
 </html>

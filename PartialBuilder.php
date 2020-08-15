@@ -18,6 +18,7 @@ class PartialBuilder
 
 	public function buildBanner()
 	{
+		include_once "parts/Banner.php";
 	}
 
 	public function buildAbout()
